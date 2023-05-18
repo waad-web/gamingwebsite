@@ -1,0 +1,161 @@
+@font-face {
+  font-family: metallurgy;
+  src: url(../src/fonts/metallurgy-metallurgy-svg-400.ttf);
+}
+@font-face {
+  font-family: resfire;
+  src: url(../src/fonts/resfire-resfire-400.ttf);
+}
+@font-face {
+  font-family: revamped;
+  src: url(../src/fonts/Revamped.otf);
+}
+
+* {
+  /* box-sizing: border-box; */
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  padding-top: 5%;
+  padding-left: 5%;
+  padding-right: 5%;
+  position: relative;
+  color: white;
+  background-image: url("../public/home.png");
+  background-size: cover;
+  min-height: 100vh;
+}
+
+.container {
+  display: flex;
+  padding: 5px;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.xd {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+}
+
+.login-signup {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  width: 20%;
+  padding: 20px;
+  font-family: metallurgy;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 20px;
+}
+
+.contents {
+  align-items: center;
+  display: flex;
+  width: 37%;
+  justify-content: space-between;
+}
+
+.brand {
+  display: flex;
+  align-items: center;
+  padding-left: 4%;
+}
+
+ul li {
+  list-style: none;
+  font-family: metallurgy;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 20px;
+}
+ul li a {
+  color: inherit;
+  text-decoration: none;
+}
+ul li a:hover {
+  color: #dd3c6d;
+}
+.brand img {
+  width: 70%;
+}
+.login-link {
+  margin-right: 3%;
+  text-decoration: none;
+  color: inherit;
+}
+.signup-link {
+  text-decoration: none;
+  color: #dd3c6d;
+}
+.title {
+  padding-top: 10%;
+  padding-left: 4%;
+  font-family: "Metallurgy";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 36px;
+  color: #dd3c6d;
+}
+.title span {
+  color: white;
+}
+.logoinside {
+  padding-top: 1%;
+  padding-left: 56.5%;
+}
+.text {
+  padding-top: 5%;
+  padding-left: 4%;
+  font-family: "Metallurgy";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 23px;
+  line-height: 24px;
+  color: #fff;
+  width: 40%;
+  text-align: justify;
+}
+.text-player {
+  padding-left: 6.6%;
+  padding-top: 5.6%;
+  font-family: "Metallurgy";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 22px;
+  color: #dd3c6d;
+}
+
+.text-player span {
+  margin-right: 0.5%;
+}
+.readmore {
+  font-family: "Resfire";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 41px;
+  padding-left: 10%;
+  padding-top: 4.4%;
+  text-decoration: none;
+}
+.readmore a {
+  text-decoration: none;
+  color: #dd3c6d;
+}
+.text-valuable {
+  padding-top: 2%;
+  font-family: "Revamped";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 37px;
+}
